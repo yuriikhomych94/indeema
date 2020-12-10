@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="input-field">
+
+            <form name="data">
+                <h2>Name</h2>
+                <input type="text" placeholder="Enter your Name" id="name" name="name">
+
+                <h2>Surname</h2>
+                <input type="text" placeholder="Enter your Surname" id="surname" name="surname">
+
+                <h2>Email address</h2>
+                <input type="email" placeholder="Enter your Email" id="email" name="email">
+
+                <input type="button" name="btn-add" id="btn-add" value="Add">
+
+                <input type="button" name="btn-edit" id="btn-edit" value="Edit">
+            </form>
+
+        </div>
+
+        <div class="result-field">
+            <form name="result">
+                <hr>
+                <table id="table">
+                    <thead>
+                        <tr class="table">
+                            <th>№</th>
+                            <th>Name</th>
+                            <th>Surname</th>
+                            <th>Email</th>
+                            <th>Date</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="render-body" style="text-align: center;"></tbody>
+                </table>
+                <hr>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
